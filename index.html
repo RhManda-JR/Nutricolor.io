@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/output.css" />
+    <!-- boxicon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- title  -->
+    <title>Nutricolor</title>
+  </head>
+<body class="lg:mx-40 min-h-screen">
+    <!-- theme avec daisyui -->
+
+    <!-- HEADER  -->
+        <!-- NAVBAR -->
+        <nav class="w-full py-4 mb-12" id="accueil" >
+            <div class="navbar">
+                <div class="flex-1">
+                    <a class="normal-case text-2xl font-pacifico ">Nutricolor</a>
+                </div>
+                <div class="flex px-2">
+                    <ul class="flex items-center transition-all">
+                    <!-- Navbar menu content here -->
+                        <div class="flex flex-row gap-6 text-md font-lobsterTwo">
+                            <li class="hover:text-[#e38000] text-[#e38000]"><a href="#">Accueil</a></li>
+                            <li class="hover:text-[#e38000] "><a href="#produit">Produit</a></li>
+                            <li class="hover:text-[#e38000] "><a href="#fabrication">Fabrication</a></li>
+                            <li class="hover:text-[#e38000] "><a href="#apropos">A propos</a></li>
+                            <li class="hover:text-[#e38000] "><a href="#contact">Contact</a></li>
+                        </div>
+                        <div class="divider divider-horizontal"></div>
+                        <label class="toggle text-base-content">
+                            <input type="checkbox" value="cupcake" class="theme-controller" />
+                            <svg aria-label="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></g></svg>
+                            <svg aria-label="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></g></svg>
+                        </label>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar circle -->
+        <div class="fab fab-flower">
+            <!-- a focusable div with tabindex is necessary to work on all browsers. role="button" is necessary for accessibility -->
+            <div tabindex="0" role="button" class="btn btn-lg btn-circle btn-success">
+                <i class='bx bxs-dashboard bx-flip-horizontal bx-flashing' ></i>
+            </div>
+
+            <!-- Main Action button replaces the original button when FAB is open -->
+            <button class="fab-main-action btn btn-circle btn-lg">
+                <i class='bx bx-menu-alt-right bx-tada' ></i>
+            </button>
+
+            <!-- buttons that show up when FAB is open -->
+            <a href="#accueil" class="btn btn-lg btn-circle">
+                <i class='bx bx-home-alt' ></i>
+            </a>
+            <a href="#produit" class="btn btn-lg btn-circle">
+                <i class='bx bxs-package' ></i>
+            </a>
+            <a href="#fabrication" class="btn btn-lg btn-circle">
+                <i class='bx bxs-hard-hat' ></i>
+            </a>
+            <a href="#apropos" class="btn btn-lg btn-circle">
+                <i class='bx bxs-info-circle' ></i>
+            </a>
+        </div>
+
+    <!-- ACCUEIL -->
+        <!-- HERO SECTION -->
+        <section class="flex lg:flex-row sm:flex-col justify-center items-center text-center gap-6">
+            <div class="text">
+                <h1 class="text-5xl font-bold mb-4">Bienvenue chez <span class="font-pacifico">Nutricolor</span></h1>
+                <p class="text-lg mb-6">Votre partenaire de confiance pour une alimentation saine et colorée.</p>
+                <a href="#produit" class="bg-[#e38000] hover:bg-[#ffffff] hover:shadow-xl hover:text-[#e38000] border-none text-white p-2 rounded-2xl
+                transition-colors font-pacifico">Découvrir nos produits</a>
+            </div>
+            <div class="image relative">
+                <img src="./img/img-accueil3.png" alt="Image d'accueil" class="w-full h-auto rounded-lg">
+                <!-- animation  -->
+                <i class='bx bxs-leaf bx-tada bx-rotate-180 text-green-500 text-3xl absolute top-0 left-0' ></i>
+                <i class='bx bxs-lemon bx-fade-down bx-rotate-180 text-orange-500 text-3xl absolute top-full right-10' ></i>
+            </div>
+        </section>
+        <!-- FIN HERO SECTION -->
+
+    <!-- PRODUIT  -->
+        <section class="mt-40 scroll-mt-14" id="produit">
+            <div class="divider" >
+                <h2 class="text-3xl font-bold text-center font-pacifico">Nos Produits</h2>
+            </div>
+            <!-- carousel  -->
+            <div class="carousel rounded-box max-w-4xl  space-x-4 mb-5 p-4" id="produit-container">
+                <!-- les produits seront insérés ici par JS -->
+            </div>
+            <!-- fin carousel  -->
+         </section>
+    <!-- FABRICATION ARTISANALE -->
+    <!-- NUTRICOLOR -->
+        <section  id="fabrication" class="scroll-mt-5">
+
+            <div class="divider">
+                <h2 class="text-3xl font-bold text-center font-pacifico">Fabrication</h2>
+            </div>
+
+            <!-- parcours de fabrication  -->
+            <div class="flex flex-row gap-2 items-center mt-10">
+                <h2 class="font-pacifico text-primary text-3xl">Etapes de fabrication de :</h2>
+                <select id="timeline-select" class="select select-secondary w-40">
+                    <option value="colorant_extraction_ethanol">Colorant (Éthanol)</option>
+                    <option value="confiture">Confiture</option>
+                    <option value="sucre_cristallise">Sucre cristallisé</option>
+                </select>
+            </div>
+            <div class="flex flex-row items-center justify-around">
+                <div class="timeline">
+                    <ul class="steps steps-vertical" id="timeline">
+                        <!-- steps here -->
+                    </ul>
+                </div>
+                <!-- explication des etapes avec carousel -->
+                <div class="carousel rounded-box max-w-72 space-x-4 mt-10 mb-5 p-4 scroll-mt-40" id="timeline-carousel">
+                    <!-- carousel pour chaque timeline -->
+                </div>
+            </div>
+        </section>
+    <!-- A PROPOS  -->
+        <section class="my-20 scroll-mt-10"  id="apropos">
+            <div class="divider mb-5">
+                <h2 class="text-3xl font-bold text-center font-pacifico">À propos</h2>
+            </div>
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div class="backdrop-blur-md rounded-2xl shadow-lg p-8 md:p-12">
+                    <header class="mb-6">
+                        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">À propos de <span class="text-emerald-600">Nutricolor</span></h2>
+                        <p class="mt-2 text-sm md:text-base">Nature, saveur et vitalité — pensés pour votre quotidien.</p>
+                    </header>
+                    <div class="space-y-4">
+                        <p>
+                        Chez <strong>Nutricolor</strong>, nous croyons que la nature est la meilleure source de vitalité et de bien-être. Notre mission est de vous offrir des produits sains, naturels et de qualité, qui allient <strong>nutrition</strong> et <strong>couleur de vie</strong>.
+                        </p>
+
+
+                        <p>
+                        Inspirés par la richesse de notre terre, nous sélectionnons avec soin nos ingrédients afin de préserver leurs bienfaits et leur authenticité. Chaque produit est conçu pour vous accompagner au quotidien, en apportant équilibre, énergie et saveur.
+                        </p>
+
+
+                        <p>
+                        Avec <strong>Nutricolor</strong>, redécouvrez le plaisir d’une alimentation qui nourrit le corps tout en respectant la nature.
+                        </p>
+                    </div>
+
+                    <div class="flex items-center mt-2">
+                        <div class="avatar-group -space-x-6">
+                            <div class="avatar">
+                                <div class="w-12">
+                                <img src="./img/personne1.jpg" />
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <div class="w-12">
+                                <img src="./img/personne2.jpg" />
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <div class="w-12">
+                                <img src="./img/personne3.jpg" />
+                                </div>
+                            </div>
+                            <div class="avatar avatar-placeholder">
+                                <div class="bg-neutral text-neutral-content w-12">
+                                <span>+99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" aria-label="1 star" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" aria-label="2 star" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" aria-label="3 star" checked="checked"/>
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" aria-label="4 star" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" aria-label="5 star" />
+                        </div>
+                    </div>
+
+
+                    <footer class="mt-8 flex items-center justify-between">
+                        <a href="#produit" class="bg-[#e38000] hover:bg-[#ffffff] hover:shadow-xl hover:text-[#e38000] border-none text-white p-2 rounded-2xl
+                transition-colors font-pacifico">Voir nos produits</a>
+                        <a href="#contact" class="text-sm text-gray-500 dark:text-gray-300 hover:underline">Nous contacter</a>
+                    </footer>
+                </div>
+            </div>
+        </section>
+    <!-- CONTACT  -->
+    <div class="divider mb-5">
+        <h2 class="text-3xl font-bold text-center font-pacifico">Contact</h2>
+    </div>
+    <!-- Section "Contact" pour Nutricolor - DaisyUI + Tailwind CSS -->
+    <section id="contact" class="">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="card bg-base-100 p-8 md:p-12">
+            <header class="mb-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold ">Contactez-nous</h2>
+                <p class="mt-2 text-base-content/70">Une question, un partenariat ou un retour ? Nous serons ravis d’échanger avec vous.</p>
+            </header>
+
+            <form action="#" method="POST" class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="form-control">
+                        <label for="name" class="label">
+                        <span class="label-text">Nom complet</span>
+                        </label>
+                        <input type="text" id="name" name="name" required class="input input-bordered w-full" />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email" class="label">
+                        <span class="label-text">Email</span>
+                        </label>
+                        <input type="email" id="email" name="email" required class="input input-bordered w-full" />
+                    </div>
+                </div>
+
+                <div class="form-control">
+                <label for="subject" class="label">
+                    <span class="label-text">Sujet</span>
+                </label>
+                <input type="text" id="subject" name="subject" class="input input-bordered w-full" />
+                </div>
+
+                <div class="form-control">
+                <label for="message" class="label">
+                    <span class="label-text">Message</span>
+                </label>
+                <textarea id="message" name="message" rows="5" required class="textarea textarea-bordered w-full"></textarea>
+                </div>
+
+                <div class="text-center">
+                <button type="submit" class="btn btn-primary px-8">Envoyer</button>
+                </div>
+            </form>
+
+            <div class="mt-10 text-center text-sm text-base-content/70">
+                <p>Email : <a href="mailto:contact@nutricolor.com" class="link">contact@nutricolor.gmail.com</a></p>
+                <p>Téléphone : <a href="tel:+261340000000" class="link">+261 34 00 000 00</a></p>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER  -->
+     <footer  id="contact" class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 mb-5">
+        <nav class="grid grid-flow-col gap-4">
+            <a href="#accueil" class="link link-hover">Accueil</a>
+            <a href="#produit" class="link link-hover">Produits</a>
+            <a href="#fabrication" class="link link-hover">Fabricaton</a>
+            <a href="#apropos" class="link link-hover">A propos</a>
+        </nav>
+        <nav>
+            <div class="grid grid-flow-col gap-4 text-2xl">
+                <a href="#" class="link">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+                <a href="#" class="link">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="#" class="link">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+            </div>
+        </nav>
+        <aside>
+            <p>Copyright © 2025 - All right reserved by Nutricolor Industries</p>
+        </aside>
+    </footer>
+
+    <!-- script -->
+        <!-- jqwery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

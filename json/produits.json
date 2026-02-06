@@ -1,0 +1,60 @@
+{
+  "produits": [
+    {
+      "nom": "Colorant alimentaire de betterave",
+      "img": "./img/colorantbettrave.jpg",
+      "origine": "Racine de betterave rouge",
+      "couleur": "Rouge à violet",
+      "utilisation": "Colorant naturel dans les desserts, sauces, boissons",
+      "proprietes": "Riche en bétalaïnes (pigments hydrosolubles), sans goût prononcé"
+    },
+    {
+      "nom": "Colorant alimentaire de persil",
+      "img": "./img/colorantPersil.jpg",
+      "origine": "Feuilles de persil",
+      "couleur": "Vert",
+      "utilisation": "Coloration naturelle dans les sauces, pâtes, beurres",
+      "proprietes": "Contient de la chlorophylle, légèrement herbacé"
+    },
+    {
+      "nom": "Colorant alimentaire de curcuma",
+      "img": "./img/colorantcurcuma.jpg",
+      "origine": "Racine de curcuma",
+      "couleur": "Jaune vif à orangé",
+      "utilisation": "Coloration de riz, sauces, pâtisseries",
+      "proprietes": "Contient de la curcumine, saveur terreuse"
+    },
+    {
+      "nom": "Sucre de patate douce",
+      "img": "./img/sucrepatatedouce.jpg",
+      "origine": "Patate douce transformée en sirop ou poudre sucrée",
+      "gout": "Doux, légèrement caramélisé",
+      "utilisation": "Substitut du sucre dans les desserts, pâtisseries, boissons",
+      "proprietes": "Contient des sucres naturels (glucose, fructose), index glycémique modéré"
+    },
+    {
+      "nom": "Confiture de courgettes",
+      "img": "./img/confiturecourgette.jpg",
+      "origine": "Courgettes cuites avec du sucre et du citron",
+      "gout": "Doux, légèrement acidulé",
+      "utilisation": "Tartines, desserts",
+      "proprietes": "Texture moelleuse, goût neutre adapté à l'aromatisation (vanille, citron)"
+    },
+    {
+      "nom": "Confiture d’oignon",
+      "img": "./img/confitureoignons.webp",
+      "origine": "Oignons caramélisés avec sucre et vinaigre",
+      "gout": "Sucré-salé, légèrement acide",
+      "utilisation": "Accompagnement de viandes, fromages",
+      "proprietes": "Texture fondante, goût intense"
+    },
+    {
+      "nom": "Confiture de betterave",
+      "img": "./img/confiturebettrave.jpg",
+      "origine": "Betterave cuite avec du sucre et du jus de citron",
+      "gout": "Sucré, terreux avec notes fruitées",
+      "utilisation": "Tartines, sauces, accompagnements",
+      "proprietes": "Couleur rouge foncé, riche en antioxydants"
+    }
+  ]
+}

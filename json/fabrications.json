@@ -1,0 +1,136 @@
+{
+  "timelines": {
+    "colorant_extraction_ethanol": [
+      {
+        "etape": 1,
+        "id": "lavage_broyage",
+        "titre": "Lavage et broyage",
+        "description": "Lavage et broyage de la matière végétale",
+        "image": "./img/lavage_broyage.webp"
+      },
+      {
+        "etape": 2,
+        "id": "maceration",
+        "titre": "Maceration",
+        "description": "Maceration dans de l’éthanol (70 %)",
+        "image": "./img/maceration.jpg"
+      },
+      {
+        "etape": 3,
+        "id": "agitation_repos",
+        "titre": "Agitation et repos",
+        "description": "Agitation et repos (plusieurs heures)",
+        "image": "./img/agitation et repos.jpg"
+      },
+      {
+        "etape": 4,
+        "id": "filtrage",
+        "titre": "Filtrage",
+        "description": "Filtrage pour séparer les solides",
+        "image": "./img/filtrage.jpg"
+      },
+      {
+        "etape": 5,
+        "id": "evaporation",
+        "titre": "Évaporation",
+        "description": "Évaporation de l’éthanol (si nécessaire)",
+        "image": "./img/evaporation.jpg"
+      },
+      {
+        "etape": 6,
+        "id": "conservation",
+        "titre": "Conservation",
+        "description": "Conservation du colorant dans un flacon opaque au frais",
+        "image": "./img/conservation.jpg"
+      }
+    ],
+    "confiture": [
+      {
+        "etape": 1,
+        "id": "preparation",
+        "titre": "Préparation",
+        "description": "Lavage et découpe des légumes",
+        "image": "./img/lavage_decoupage.jpg"
+      },
+      {
+        "etape": 2,
+        "id": "cuisson",
+        "titre": "Cuisson",
+        "description": "Cuisson avec sucre et jus de citron",
+        "image": "./img/cuisson_oignon.jpg"
+      },
+      {
+        "etape": 3,
+        "id": "epaississement",
+        "titre": "Épaississement",
+        "description": "Remuer jusqu’à obtenir une texture épaisse",
+        "image": "./img/epaississement.jpg"
+      },
+      {
+        "etape": 4,
+        "id": "test_prise",
+        "titre": "Test de prise",
+        "description": "Goutte sur une assiette froide",
+        "image": "./img/test_de_prise.jpg"
+      },
+      {
+        "etape": 5,
+        "id": "mise_en_pot",
+        "titre": "Mise en pot",
+        "description": "Mise en pot stérilisé à chaud",
+        "image": "./img/mise_en_pot.avif"
+      },
+      {
+        "etape": 6,
+        "id": "fermeture",
+        "titre": "Fermeture",
+        "description": "Fermeture et retournement des pots (stérilisation)",
+        "image": "./img/fermeture.jpg"
+      }
+    ],
+    "sucre_cristallise": [
+      {
+        "etape": 1,
+        "id": "extraction_jus",
+        "titre": "Extraction du jus",
+        "description": "Extraction du jus de la patate douce",
+        "image": "./img/extraction.jpg"
+      },
+      {
+        "etape": 2,
+        "id": "filtration_jus",
+        "titre": "Filtration",
+        "description": "Filtration du jus pour enlever les particules",
+        "image": "./img/filtrage jus de ptt d.jpg"
+      },
+      {
+        "etape": 3,
+        "id": "concentration",
+        "titre": "Concentration",
+        "description": "Concentration du jus par évaporation à chaud",
+        "image": "./img/concentration.jpg"
+      },
+      {
+        "etape": 4,
+        "id": "cristallisation",
+        "titre": "Cristallisation",
+        "description": "Formation des cristaux (refroidissement lent)",
+        "image": "./img/cristallisation.jpg"
+      },
+      {
+        "etape": 5,
+        "id": "separation_cristaux",
+        "titre": "Séparation",
+        "description": "Filtration ou séparation des cristaux",
+        "image": "./img/separation.webp"
+      },
+      {
+        "etape": 6,
+        "id": "sechage_stockage",
+        "titre": "Séchage et stockage",
+        "description": "Séchage et stockage du sucre cristallisé",
+        "image": "./img/sucrepatatedouce.jpg"
+      }
+    ]
+  }
+}
